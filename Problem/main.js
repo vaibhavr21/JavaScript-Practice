@@ -51,3 +51,11 @@ for (var i=0; i<3; i++){
         console.log(i);
     },1000);
 }
+
+
+
+
+function multiply(a,b=5){
+    return a*b;
+}
+console.log(multiply(5));
