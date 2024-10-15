@@ -42,3 +42,12 @@ const increment = outer();
 increment();
 increment();
 increment();
+
+
+
+
+for (var i=0; i<3; i++){
+    setTimeout(function(){
+        console.log(i);
+    },1000);
+}
