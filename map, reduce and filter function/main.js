@@ -20,10 +20,27 @@ const companies = [
 
 // for
 
-for (let i  = 0; i <companies.length; i++){
-    //  console.log(companies[i]);
-    //  console.log(companies[i].name);
-    // console.log(companies[i].category);
-    // console.log(companies[i].start);
-    // console.log(companies[i].end);
-} 
+// for (let i  = 0; i <companies.length; i++){
+//     //  console.log(companies[i]);
+//     //  console.log(companies[i].name);
+//     // console.log(companies[i].category);
+//     // console.log(companies[i].start);
+//     // console.log(companies[i].end);
+// } 
+
+
+//forEach
+
+// companies.forEach(function(company, index){
+//     // console.log(company);
+//     // console.log(company.name);
+//     // console.log(company.category);
+//     // console.log(company.start);
+//     // console.log(company.end);
+// })
+
+//forEach with one liner syntax
+
+// companies.forEach((company, index)=>(console.log(company)));
+// companies.forEach((company, index)=>(console.log(company.name)));
+// companies.forEach((company, index)=>(console.log(company.category)));
